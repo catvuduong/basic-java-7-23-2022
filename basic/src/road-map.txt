@@ -1,0 +1,5 @@
+1. hello word.
+2. input output homework.
+3. if else do while homework.
+4. do while advance.
+5. function homework.

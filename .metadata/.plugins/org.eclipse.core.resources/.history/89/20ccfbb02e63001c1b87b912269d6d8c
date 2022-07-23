@@ -1,0 +1,29 @@
+package input_output_homework;
+
+import Input_Supporter.Input;
+
+/*
+ * Name: dcv
+ * Quy đổi tiền
+Giá USD hiện nay đang là 23.500 VND
+Viết chương trình quy đổi từ USD sang VND. 
+Cho người dùng nhập vào số tiền USD. 
+Tính và xuất ra số tiền sau quy đổi VND. 
+Ví dụ: 
+Người dùng nhập 2 USD => Xuất ra 47.000 VND
+
+ * */
+
+public class Ex3 {
+	public static void main(String[] agrs) {
+		// Input
+		double moneyChange;
+		final double VND = 23500;
+		double usd = Input.doubleInput("Mời nhập số usd muốn đổi sang vnd");
+		// Process
+		moneyChange = usd * VND;
+		// Output
+		System.out.println(usd + " usd qui đổi sang vnd là: " + moneyChange + "vnd");
+	}
+
+}
